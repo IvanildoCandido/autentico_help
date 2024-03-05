@@ -3,7 +3,7 @@ import React from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import {theme} from './src/theme/theme';
-import {Router} from './src/routes/Router';
+import {Router} from './src/routes/Routes';
 
 function App(): JSX.Element {
   return (
