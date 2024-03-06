@@ -10,7 +10,6 @@ import {ThemeColors} from '@theme';
 interface Props extends Omit<ActivityIndicatorProps, 'color'> {
   color: ThemeColors;
 }
-const ola = '';
 export function ActivityIndicator({color}: Props) {
   const {colors} = useAppTheme();
 
