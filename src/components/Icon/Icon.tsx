@@ -3,10 +3,11 @@ import {Pressable} from 'react-native';
 
 import {useAppTheme} from '@hooks';
 import {ThemeColors} from '@theme';
-import {EyeOnIcon} from '../../assets/icons/EyeOnIcon';
-import {EyeOffIcon} from '../../assets/icons/EyeOffIcon';
+
 import {ArrowLeftIcon} from '../../assets/icons/ArrowLeftIcon';
 import {CheckRoundIcon} from '../../assets/icons/CheckRoundIcon';
+import {EyeOffIcon} from '../../assets/icons/EyeOffIcon';
+import {EyeOnIcon} from '../../assets/icons/EyeOnIcon';
 import {MessageRoundIcon} from '../../assets/icons/MessageRoundIcon';
 
 export interface IconBase {
