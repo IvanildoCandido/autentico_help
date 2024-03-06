@@ -1,8 +1,8 @@
 import React from 'react';
 import {Pressable} from 'react-native';
 
-import {useAppTheme} from '../../hooks/useAppTheme';
-import {ThemeColors} from '../../theme/theme';
+import {useAppTheme} from '@hooks';
+import {ThemeColors} from '@theme';
 import {EyeOnIcon} from '../../assets/icons/EyeOnIcon';
 import {EyeOffIcon} from '../../assets/icons/EyeOffIcon';
 import {ArrowLeftIcon} from '../../assets/icons/ArrowLeftIcon';
